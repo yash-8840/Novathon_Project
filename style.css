@@ -1,0 +1,84 @@
+.navtext {
+  color: aliceblue;
+}
+.badgetext {
+  color: black;
+}
+.col_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+}
+.col_2 {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 500px;
+  width: 500px;
+}
+.heading {
+  font-family: 'Maven Pro', sans-serif;
+}
+.navbar-brand {
+  color: blue;
+}
+.first {
+  height: 40rem;
+}
+.Sign-up-logo {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+}
+#Sign-in-heading {
+  font-size: 25;
+}
+.bgc {
+  height: 40rem;
+}
+.text {
+  color: black;
+}
+.img1 {
+  height: 50px;
+  width: 50px;
+}
+#list {
+  background-color: #39a2db;
+}
+.card_images {
+  width: 17rem;
+  height: 15rem;
+  left: 10px;
+}
+.cb {
+  height: 8rem;
+}
+.mb-3 {
+  border: none;
+}
+.front {
+  height: 40rem;
+  background-image: url('images/EduFlix.gif');
+}
+.col_3 {
+  height: 40rem;
+  align-items: center;
+  background-image: url('images/imgs.gif');
+}
+.col_4 {
+  height: 40rem;
+  align-items: centre;
+  padding-top: 15rem;
+  padding-left: 5rem;
+}
+.container1 {
+  background-color: #39a2db;
+}

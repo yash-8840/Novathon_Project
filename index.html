@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eduflix</title>
+  </head>
+  <body>
+    <nav class="nav bg-dark">
+      <a class="nav-link navtext active" aria-current="page" href="index.html">
+        Home
+      </a>
+      <a class="nav-link navtext" href="Sign_up.html">Sign up</a>
+      <a class="nav-link navtext" href="#">Categories</a>
+      <a class="nav-link navtext" href="#">Teach on Eduflix</a>
+      <div class="btn-group dropend">
+        <button type="button" class="btn btn-dark">
+          Explore
+        </button>
+        <button
+          type="button"
+          class="btn btn-dark dropdown-toggle dropdown-toggle-split"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Toggle Dropend</span>
+        </button>
+        <ul class="dropdown-menu">
+          <!-- Dropdown menu links -->
+          <li>
+            <a class="dropdown-item" href="#"><strong>Goals</strong></a>
+          </li>
+          <br />
+          <li><a class="dropdown-item" href="#">Take a free course</a></li>
+          <li><a class="dropdown-item" href="#">Earn a certificate</a></li>
+          <li><a class="dropdown-item" href="#">Advance your career</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a class="dropdown-item" href="#"><strong>Subjects</strong></a>
+          </li>
+          <br />
+          <li><a class="dropdown-item" href="#">Data Science</a></li>
+          <li><a class="dropdown-item" href="#">Computer Science</a></li>
+          <li><a class="dropdown-item" href="#">Information technology</a></li>
+          <li><a class="dropdown-item" href="#">Coding</a></li>
+          <li><a class="dropdown-item" href="#">Math and logic</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a class="dropdown-item" href="#courses">Browse all courses</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand">Eduflix</a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid front"></div>
+    <div class="container-fluid" id="list">
+      <div style="width: 100%; text-align: center;">
+        <h1>Why Choose Us?</h1>
+      </div>
+      <div class="row row-cols-4">
+        <div class="col" style="text-align: center;">
+          <img class="img1" src="images/person-chalkboard-solid.svg" alt="" />
+          <p>Learned Mentors</p>
+        </div>
+        <div class="col" style="text-align: center;">
+          <img class="img1" src="images/code-solid.svg" alt="" />
+          <p>Top Courses</p>
+        </div>
+        <div class="col" style="text-align: center;">
+          <img class="img1" src="images/money.png" alt="" />
+          <p>Affordable price</p>
+        </div>
+        <div class="col" style="text-align: center;">
+          <img class="img1" src="images/customer-support.png" alt="" />
+          <p>Customer-support</p>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="courses">
+      <h1 style="padding-top: 50px; padding-bottom: 50px;">
+        Courses you can explore
+      </h1>
+      <div class="row row-cols-4">
+        <div
+          class="card"
+          style="width: 18rem; margin-left: 1rem; margin-right: 1rem;"
+        >
+          <img
+            src="images/1584023795.gif"
+            class="card-img-top card_images"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">C++</h5>
+            <p class="card-text cb">
+              C++ is a cross-platform language that can be used to create
+              high-performance applications.
+            </p>
+            <a href="#" class="btn btn-primary">Get Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 18rem; margin-left: 1rem; margin-right: 1rem;"
+        >
+          <img
+            src="images/java.gif"
+            class="card-img-top card_images"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text cb">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Get Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 18rem; margin-left: 1rem; margin-right: 1rem;"
+        >
+          <img
+            src="images/oops.gif"
+            class="card-img-top card_images"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">OOPs</h5>
+            <p class="card-text cb">
+              Learn the concepts of objects and classes
+            </p>
+            <a href="#" class="btn btn-primary">Get Now</a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 18rem; margin-left: 1rem; margin-right: 1rem;"
+        >
+          <img
+            src="images/Algorithm.gif"
+            class="card-img-top card_images"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">DSA</h5>
+            <p class="card-text cb">
+              Learn the tough concepts of various algorithms easily.
+            </p>
+            <a href="#" class="btn btn-primary">Get Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="courses">
+      <h1 style="padding-top: 50px; padding-bottom: 50px;">
+        Membership includes
+      </h1>
+      <div class="row row-cols-4">
+        <div class="card mb-3" style="max-width: 500px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/lock-open-solid.svg"
+                class="img-fluid rounded-start"
+                alt="..."
+                style="margin-top: 15px; height: 60px; width: 60px;"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Unlimited content</h5>
+                <p class="card-text">
+                  You can access Unlimited content once you get the
+                  subscription.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 500px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/person-chalkboard-solid.svg"
+                class="img-fluid rounded-start"
+                alt="..."
+                style="margin-top: 15px; height: 60px; width: 60px;"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Expert teachers</h5>
+                <p class="card-text">
+                  Get learn from the experinced teachers and valuable content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 500px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/accessiblity.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Easy Accessiblity</h5>
+                <p class="card-text">
+                  The learner can easily access content once he/she get the
+                  subscription.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 500px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/headset-solid.svg"
+                class="img-fluid rounded-start"
+                alt="..."
+                style="margin-top: 15px; height: 60px; width: 60px;"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">24 x 7 support</h5>
+                <p class="card-text">
+                  Get support from the teachers when you get stuck.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container text-center block">
+  <div class="row">
+    <div class="col col_3">
+      
+    </div>
+    <div class="col col_4">
+     <h1 style="color: teal;">Watch. Listen. Practice. Learn</h1>
+     <br>
+     <h6>Eduflix takes into consideration the differences of individual learners, and it allows students to practice their own individual learning styles.</h5>
+    </div>
+  </div>
+</div>
+<hr />
+
+<!-- footer-->
+
+    <div>
+      <div class="container1">
+        <div class="row" style="align-items: centre;">
+          <div class="col">
+            <span>
+              <a href="" class="anchor" style="color: white;">About us</a>
+            </span>
+            |
+            <span>
+              <a href="" class="anchor" style="color: white;">Contact us</a>
+            </span>
+
+            <p>
+              Getting valuable content is much expensive nowadays so we have developed a platform
+              <strong>Eduflix</strong>
+              to make learning easy.
+            </p>
+          </div>
+
+        </div>
+      <div style="padding-left:45rem;">
+        <p>&copy; 2022 Eduflix</p>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+  </body>
+</html>
